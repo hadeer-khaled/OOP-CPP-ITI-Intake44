@@ -19,6 +19,9 @@ class Queue
             arr = new int[_size]{0};
             head = -1, tail = -1;
         }
+        ~Queue(){
+            delete[] arr;
+        }
         void enqueue(int num)
         {
             if(head == -1 ){
