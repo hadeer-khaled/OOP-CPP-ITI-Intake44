@@ -21,7 +21,9 @@ class Stack
             arr = new int[_size]{0};
         };
 
-        ~Stack(){}
+        ~Stack(){
+            delete[] arr;
+        }
         void push(int data){
             if(top < _size-1){
                 top++ ;
