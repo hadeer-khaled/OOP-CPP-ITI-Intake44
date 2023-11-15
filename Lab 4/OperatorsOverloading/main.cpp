@@ -99,19 +99,20 @@ class complex_{
                         return this->img ;
                 }
         }
-        /*int operator[](char key[]) {
+    int operator[](const string& key) {
+            if (key == "real")
+            {
+                return this->real;
+            } else if (key == "imag")
+            {
+                return this->img;
+            } else
+            {
+                cout << "Invalid Key\n";
+                return 00000;
+            }
+        }
 
-                if (index < 0 || index > 1) {
-                    cout<< "Index Out of range" ;
-                    return 00000 ;
-                }
-                switch(index){
-                    case 0:
-                        return this->real ;
-                    case 1:
-                        return this->img ;
-                }
-        }*/
 
         void printIn(){
             //cout<<"Print with In class definition:  ";
@@ -193,8 +194,13 @@ int main()
     c1.printIn();
     c3.printIn();*/
 
-    // ----------------- [] ------------------
-    cout << c1;
+    // ----------------- [index] ------------------
+    cout << c1[0] <<endl ; // ==> 10
+    cout << c1[1] <<endl ; // ==> 16
+
+    // ----------------- [index] ------------------
+    cout << c1["real"] <<endl ; // ==> 10
+    cout << c1["imag"] <<endl ; // ==> 16
 
     return 0;
 }
