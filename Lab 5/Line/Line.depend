@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1699954376 source:h:\5) c++\labs\lab 5\rectangle\main.cpp
+	<iostream>
+	<Point.h>
+	<Rectangle.h>
+	<Circle.h>
+	<graphics.h>
+
+1699885234 h:\5) c++\labs\lab 5\rectangle\include\point.h
+
+1699880498 h:\5) c++\labs\lab 5\rectangle\include\rectangle.h
+
+1699954659 h:\5) c++\labs\lab 5\rectangle\include\circle.h
+	<graphics.h>
+
