@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1700037797 source:h:\5) c++\labs\lab 6\oopoverall\main.cpp
+	<iostream>
+	<graphics.h>
+	<Point.h>
+	<Line.h>
+	<Shape.h>
+	<Circle.h>
+	<Rectangle.h>
+
+1699992460 h:\5) c++\labs\lab 6\oopoverall\include\circle.h
+	<Shape.h>
+
+1699968132 h:\5) c++\labs\lab 6\oopoverall\include\point.h
+	<iostream>
+
+1699994202 h:\5) c++\labs\lab 6\oopoverall\include\rectangle.h
+
+1699995793 h:\5) c++\labs\lab 6\oopoverall\include\line.h
+	<Shape.h>
+	<conio.h>
+
+1699995733 h:\5) c++\labs\lab 6\oopoverall\include\shape.h
+
