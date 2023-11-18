@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1700335134 source:h:\5) c++\labs\lab 7\virtual\main.cpp
+	<iostream>
+	<graphics.h>
+	<conio.h>
+	<Point.h>
+	<Line.h>
+	<Shape.h>
+	<Circle.h>
+	<Rectangle.h>
+
+1700332027 h:\5) c++\labs\lab 7\virtual\include\point.h
+	<iostream>
+
+1700335266 h:\5) c++\labs\lab 7\virtual\include\line.h
+	<Shape.h>
+	<conio.h>
+
+1700335266 h:\5) c++\labs\lab 7\virtual\include\shape.h
+
+1700334814 h:\5) c++\labs\lab 7\virtual\include\circle.h
+	<Shape.h>
+
+1700334844 h:\5) c++\labs\lab 7\virtual\include\rectangle.h
+
