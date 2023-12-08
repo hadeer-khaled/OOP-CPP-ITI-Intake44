@@ -26,34 +26,7 @@ In this comprehensive course, I've gained a deep understanding of fundamental an
   
 - **Friend Function:**
   - Explains friend functions, showcasing their role in accessing private members.
-
-### Code Examples
-
-```cpp
-// C Code
-int main() {
-    int x = 10;
-    printf("x = %d \n", x);
-
-    int y;
-    scanf("%d", &y);
-
-    return 0;
-}
-
-// C++ Code
-#include<iostream>
-using namespace std;
-int main() {
-    int x = 10;
-    cout << "x = " << x << endl;
-
-    int y;
-    cin >> y;
-
-    return 0;
-}
-```
+    
 ------------------------------------------------------------
 
 # Lecture 2: Advanced C++ Concepts
