@@ -596,7 +596,9 @@ int main() {
 
     return 0;
 }
+# Acknowledgments
 
+I would like to express my gratitude to [Mina Nagy](https://www.linkedin.com/in/mina-iotsoftwareengineer/) for his explanation and his ability to make the complicated concepts of OOP with C++ both understandable and enjoyable.
 
 ```
 
